@@ -1,7 +1,7 @@
 import React,{Component}  from 'react';
 
 
-export class Home extends Component 
+export class PortFolio extends Component 
 {
     render()
     {
@@ -10,12 +10,10 @@ export class Home extends Component
                 <div className="container-fluid h-100 d-flex flex-column ">
                     <div className="row header-row">
                     <div className="col titles">
-                            <h1>Ikram Husain</h1>
-                            <span className="sub-title">Passionate Developer</span>
+                            <h1>PortFlio </h1>
+                            <span className="sub-title"></span>
                         </div>
-                        <div className="col titles">
-                            <h1> &#60;&#47;CODER &#62;</h1>
-                        </div>
+                       
                     </div>
                 </div>
                 
