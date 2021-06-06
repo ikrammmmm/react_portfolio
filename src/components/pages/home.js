@@ -7,7 +7,7 @@ export class Home extends Component
     {
         return (
             <div>
-                <div className="container-fluid h-100 d-flex flex-column ">
+                <div className="container container-row">
                     <div className="row header-row">
                     <div className="col titles">
                             <h1>Ikram Husain</h1>

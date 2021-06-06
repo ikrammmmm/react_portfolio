@@ -1,5 +1,7 @@
 import React,{Component}  from 'react';
 
+import Portfolio from '../templates/portfolio';
+import projects from '../../data/projects'
 
 export class PortFolio extends Component 
 {
@@ -7,14 +9,15 @@ export class PortFolio extends Component
     {
         return (
             <div>
-                <div className="container-fluid h-100 d-flex flex-column ">
-                    <div className="row header-row">
-                    <div className="col titles">
-                            <h1>PortFlio </h1>
-                            <span className="sub-title"></span>
-                        </div>
-                       
-                    </div>
+                <div className="container container-row mt-4">
+                    <div className="row header-row d-flex p-2 justify-content-center">
+                    {projects.map( (project,index) =>{
+                        {console.log('fdsf')}
+                        return <Portfolio key={index} project={project}/>
+                    })}
+                        
+
+                   </div>
                 </div>
                 
             </div>

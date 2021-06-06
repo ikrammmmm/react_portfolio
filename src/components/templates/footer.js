@@ -3,10 +3,10 @@ export class Footer extends Component {
     render()
     {
         return (
-                <footer class="footer">
-                    <div class="container">
-                        <span class="text-muted">Place sticky footer content here.</span>
-                    </div>
+                <footer className="footer">
+                        <div className="container">
+                            <a href="mailto:ikramhusain@hmail.com" className="btn btn-secondary">Contact me</a>
+                        </div>
                 </footer>
         )
     }
