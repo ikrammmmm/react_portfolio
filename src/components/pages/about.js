@@ -14,7 +14,7 @@ export class About extends Component
                             <img src={image} className="about-image"></img>
                         </div>
                         <div className="col-7  about-bg ">
-                               <center> <h2>Ikram husain</h2></center>
+                               <center> <h2>Ikram Hussein</h2></center>
                                 <div className="row about-content p-4">
                                 <p>Hi my name is ikram i'm 23 years old. 
                                 I am a coding bootcamp student and aspire to become a web developer. I was exposed to web development from a friend and have been intrigued ever since. technology is ever evolving, and pushes us to learn everyday.
