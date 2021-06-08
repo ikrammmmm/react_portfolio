@@ -13,15 +13,15 @@ import {ContactUs} from './components/pages/contactUs';
 
 function App(){
   return (
-    <Router basename="/">
+    <Router basename="/react_portfolio">
     <div className="App">
       <Header/>
       <Switch>
-      <Route path="./" exact component={Home}/>
-      <Route path="./home" component={Home}/>
-      <Route path="./about" component={About}/>
-      <Route path="./contact" component={ContactUs}/>
-      <Route path="./portfolio" component={PortFolio}/>
+      <Route path="/" exact component={Home}/>
+      <Route path="/home" component={Home}/>
+      <Route path="/about" component={About}/>
+      <Route path="/contact" component={ContactUs}/>
+      <Route path="/portfolio" component={PortFolio}/>
       </Switch>
       <Footer/>
     </div>
