@@ -39,7 +39,7 @@ var projects = [
         "github":"https://github.com/ikrammmmm/burger",
         "demo": "https://eat-burger-app-ikramm.herokuapp.com/",
         "image":burger,
-        "Description" : "his is a burger logger app with MySQL, Node, Express, Handlebars and a homemade ORM."
+        "Description" : "This is a burger logger app with MySQL, Node, Express, Handlebars and a homemade ORM."
     },
     {
         "name":"Eat a Burger App",
