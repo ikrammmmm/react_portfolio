@@ -12,7 +12,6 @@ export class PortFolio extends Component
                 <div className="container container-row mt-4">
                     <div className="row header-row d-flex p-2 justify-content-center">
                     {projects.map( (project,index) =>{
-                        {console.log('fdsf')}
                         return <Portfolio key={index} project={project}/>
                     })}
                         

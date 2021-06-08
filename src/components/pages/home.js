@@ -10,7 +10,7 @@ export class Home extends Component
                 <div className="container container-row">
                     <div className="row header-row">
                     <div className="col titles">
-                            <h1>Ikram Husain</h1>
+                            <h1>Ikram Hussein</h1>
                             <span className="sub-title">Passionate Developer</span>
                         </div>
                         <div className="col titles">

@@ -16,7 +16,8 @@ export class About extends Component
                         <div className="col-7  about-bg ">
                                <center> <h2>Ikram husain</h2></center>
                                 <div className="row about-content p-4">
-                                
+                                Hi my name is ikram i'm 23 years old. I love nature and knitting in my spare time. I volunteer for mental health and domestic violence support group. I born and raised in the same neighbourhood.
+
                                 </div>
                         </div>
                        
