@@ -13,7 +13,7 @@ import {ContactUs} from './components/pages/contactUs';
 
 function App(){
   return (
-    <Router>
+    <Router basename="/">
     <div className="App">
       <Header/>
       <Switch>
