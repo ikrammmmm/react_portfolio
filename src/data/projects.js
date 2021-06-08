@@ -3,7 +3,7 @@ import burger from "../images/burger.png";
 import employee from "../images/employee.png";
 import weather from "../images/weather.png";
 import note from "../images/note.png";
-import googlebooks from "../images/google-book.png";
+import googlebooks from "../images/google-books.png";
 
 var projects = [
     {
