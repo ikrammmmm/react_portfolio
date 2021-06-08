@@ -11,6 +11,7 @@ export class Header extends Component {
     {
         return (
             <div>
+                <title> Ikram Portfoilio</title>
                <ul className="nav  justify-content-center navbar-dark bg-dark">
             
                     <li className="nav-item ">
