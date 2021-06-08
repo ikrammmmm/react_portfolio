@@ -7,11 +7,14 @@ import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../../styles/style.css";
 
 export class Header extends Component {
+    componentDidMount() {
+        document.title = 'Ikram Portfoilio';
+      }
     render()
     {
+        
         return (
             <div>
-                <title> Ikram Portfoilio</title>
                <ul className="nav  justify-content-center navbar-dark bg-dark">
             
                     <li className="nav-item ">
