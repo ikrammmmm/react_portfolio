@@ -6,7 +6,7 @@ export default class Portfolio extends Component {
     {
         const project = this.props.project;
         var github = project.github ? <a href={project.github}>Github</a> : "";
-        var demo = project.demo ? <a href={project.demo}>Github</a> : "";
+        var demo = project.demo ? <a href={project.demo}>Demo</a> : "";
         return (
             <div className="col col-6 card portfolio-card d-flex justify-content-center" >
             <div className="card-header text-center portfoilio-card-header ">
