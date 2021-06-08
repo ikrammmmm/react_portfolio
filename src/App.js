@@ -13,7 +13,7 @@ import {ContactUs} from './components/pages/contactUs';
 
 function App(){
   return (
-    <Router basename="/react_portfolio">
+    <Router basename="/">
     <div className="App">
       <Header/>
       <Switch>

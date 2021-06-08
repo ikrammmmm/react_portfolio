@@ -9,19 +9,19 @@ export class Header extends Component {
     {
         return (
             <div>
-               <ul class="nav  justify-content-center navbar-dark bg-dark">
+               <ul className="nav  justify-content-center navbar-dark bg-dark">
             
-                    <li class="nav-item ">
-                        <a class="nav-link nav-title" href="/">HOME</a>
+                    <li className="nav-item ">
+                        <Link className="nav-link nav-title" to="/">HOME</Link>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link nav-title" href="/about">ABOUT ME</a>
+                        <Link className="nav-link nav-title" to="/about">ABOUT ME</Link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-title" href="/portfolio">PORTFOLIO</a>
+                        <Link className="nav-link nav-title" to="/portfolio">PORTFOLIO</Link>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link nav-title" href="/contact">CONTACT ME</a>
+                        <Link className="nav-link nav-title" to="/contact">CONTACT ME</Link>
                     </li>
                    
                 </ul>
