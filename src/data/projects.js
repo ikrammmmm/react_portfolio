@@ -4,6 +4,7 @@ import employee from "../images/employee.png";
 import weather from "../images/weather.png";
 import note from "../images/note.png";
 import googlebooks from "../images/google-books.png";
+import portfoilio from "../images/portfolio.png";
 
 var projects = [
     {
@@ -43,10 +44,10 @@ var projects = [
     },
     {
         "name":"Eat a Burger App",
-        "github":"https://github.com/ikrammmmm/burger",
-        "demo": "https://eat-burger-app-ikramm.herokuapp.com/",
-        "image":burger,
-        "description" : ""
+        "github":"https://github.com/ikrammmmm/react_portfolio",
+        "demo": "https://ikrammmmm.github.io/react_portfolio/",
+        "image":portfoilio,
+        "description" : "My portfolio website implemented using React JS "
     },
 
 ]
