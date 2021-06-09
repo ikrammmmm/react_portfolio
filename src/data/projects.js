@@ -43,7 +43,7 @@ var projects = [
         "description" : "This is a burger logger app with MySQL, Node, Express, Handlebars and a homemade ORM."
     },
     {
-        "name":"Eat a Burger App",
+        "name":"Portfolio Website",
         "github":"https://github.com/ikrammmmm/react_portfolio",
         "demo": "https://ikrammmmm.github.io/react_portfolio/",
         "image":portfoilio,
